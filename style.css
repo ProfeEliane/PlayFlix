@@ -20,4 +20,5 @@ img {
 
 .categoria-video{
     display: flex;
+    overflow-x: auto;
 }
