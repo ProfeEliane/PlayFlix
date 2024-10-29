@@ -17,3 +17,7 @@ section{
 img {
     height: 200px;
 }
+
+.categoria-video{
+    display: flex;
+}
