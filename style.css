@@ -2,10 +2,11 @@ body{
     background-color: black;
     color: white;
     font-family: "Quicksand", sans-serif;
+    font-weight: bold;
 }
 
 .chamada{
-    background-color: rgb(130, 192, 216);
+    background-color: rgb(231, 159, 215);
     padding-top: 80px;
     padding-bottom: 80px;
     display:flex ;
