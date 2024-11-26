@@ -16,9 +16,6 @@ body{
 
     margin-right: 5%;
 }
-img {
-    height: 210px;
-}
 
 .categoria-video{
     display: flex;
@@ -41,4 +38,13 @@ p{
 }
 header{
     font-size: 40px;
+}
+
+.categoria-video img {
+    opacity: 0.5;
+    height: 210px;
+}
+
+.categoria-video img:hover {
+    opacity: 1.0;
 }
