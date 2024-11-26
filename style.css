@@ -49,3 +49,7 @@ header{
     opacity: 1.0;
     border: 1px solid greenyellow;
 }
+
+.categoria h2{
+    color: rgb(106, 245, 192);
+}
