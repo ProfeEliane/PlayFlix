@@ -7,15 +7,18 @@ body{
 
 .chamada{
     background-color: rgb(59, 25, 51);
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 20px;
     display:flex ;
     justify-content: center;
+    align-items: stretch;
+    gap: 20px;
 }
 .chamada-texto{
-
-    margin-right: 5%;
-}
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
 
 .categoria-video{
     display: flex;
@@ -52,4 +55,16 @@ header{
 
 .categoria h2{
     color: rgb(106, 245, 192);
+}
+
+.video-principal {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
 }
